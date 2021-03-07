@@ -1,0 +1,110 @@
+.search-form {
+  margin: 50px;
+  padding: 10px;
+}
+
+.App {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 14px;
+  background-color: #e4e978;
+}
+
+.city {
+  color: #5a6275;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-right: -10px;
+}
+
+.today {
+  color: #5a6275;
+  font-weight: normal;
+  font-size: 20px;
+  padding-bottom: 50px;
+  padding-left: -50px;
+}
+
+#searchbutton {
+  background-color: #14274e;
+}
+
+.date {
+  color: #5a6275;
+  font-size: 20px;
+  text-align: left;
+  padding-left: -10px;
+  box-sizing: border-box;
+}
+.temperature {
+  color: #5a6275;
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+.unit {
+  color: #5a6275;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.weatherDefinition {
+  display: inline;
+  color: #5a6275;
+  font-size: 20px;
+  padding-left: 50px;
+  text-transform: capitalize;
+}
+
+.conditions {
+  color: #5a6275;
+  list-style: none;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-left: 220px;
+}
+
+.col1 {
+  border-left: thin solid #5a6275;
+  text-align: center;
+  padding: 10px;
+  color: #5a6275;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.col {
+  border-left: thin solid #5a6275;
+  text-align: center;
+  padding: 10px;
+  color: #5a6275;
+  font-weight: bold;
+  font-size: 22px;
+}
+.monday {
+  text-align: center;
+  padding: 10px;
+  color: #5a6275;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.monday1 {
+  text-align: center;
+  padding: 10px;
+  color: #5a6275;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.monday2 {
+  text-align: center;
+  padding: 10px;
+  color: #5a6275;
+  font-weight: bold;
+  font-size: 22px;
+}
