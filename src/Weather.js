@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./Weather.css";
+import FormattedDate from "./FormattedDate";
 import axios from "axios";
 
 
@@ -17,7 +18,7 @@ export default function Weather(props) {
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
       wind: response.data.wind.speed,
       city: response.data.name,
-      date: "Monday, 8pm"
+      date: new Date (response.data.dt * 1000)
     });
   }
 
@@ -63,7 +64,7 @@ return (
           <div class="today">
             <img src={weatherData.iconUrl} alt={weatherData.description} id="icon" />
           </div>
-          <div id="date" class="date">{weatherData.date}</div>
+          <div id="date" class="date"><FormattedDate date={weatherData.date} /></div>
           <div class="row"></div>
         </div>
         <div class="row row-cols-9">
